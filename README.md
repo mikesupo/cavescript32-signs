@@ -1,8 +1,8 @@
-# CaveScript32 Sign Drawings · 1.0
+# CaveScript32 Sign Drawings · 1.1
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24294062.svg)](https://doi.org/10.5281/zenodo.24294062)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24294061.svg)](https://doi.org/10.5281/zenodo.24294061)
 
-**The 32 signs of CaveScript32 as individual vector drawings (SVG), one file per sign.**
+**The 32 signs of CaveScript32 as individual vector drawings (SVG), one file per sign, with a renderer that draws any `.cave` file.**
 
 **CaveScript32 — conceived and created by Michael S. Moniz, developed with Claude and ChatGPT.**
 
@@ -49,6 +49,34 @@ license condition.
   the codec repository defines. The original v1 reading key is also printed on pages 2–3
   of the source PDF included here.
 
+## Rendering a .cave file
+
+[`tools/render_cave.py`](tools/render_cave.py) turns a CaveScript32 `.cave` file into one
+self-contained SVG picture of its signs: each cell drawn left sign then right sign, cells
+left to right, rows top to bottom. It needs only Python 3.9+, with nothing to install.
+
+```
+python3 tools/render_cave.py examples/read-the-marks.cave -o read-the-marks.svg --columns 8 --labels
+```
+
+- `--columns N` sets cells per row (default 16); `--labels` prints each pair ID under its
+  cell; by default a new row starts after the newline cell `S23+S08` (`--no-lf-break`
+  turns that off). Existing output files are kept unless `--force` is given.
+- It reads current (2.0-rc.1), draft (2.0-draft.1) and headerless v1 files. It checks that
+  every token is a well-formed pair, but not what a pair means: it draws and never executes
+  or decodes. To validate or decode a file, use the
+  [codec](https://github.com/mikesupo/cavescript32).
+- To write your own text in signs, encode it with the codec first, then render:
+  `python3 cavescript32.py note.txt --encode -o note.cave`, then
+  `python3 tools/render_cave.py note.cave -o note.svg`.
+
+The worked example in [`examples/`](examples/) is the two lines *Read the marks.* and
+*Michael S. Moniz and AI, 2026.*, encoded with the 2.0-rc.1 codec:
+
+<img src="examples/read-the-marks.svg" alt="The worked example rendered in CaveScript32 signs" width="100%">
+
+Run the tests with `python3 -m unittest discover -s tests -v`.
+
 ## Provenance
 
 - **Sign categories.** The 32 categories and their names follow the catalogue of
@@ -74,15 +102,17 @@ license condition.
 - **CC BY 4.0:** the sign drawings (`signs/`), the source PDF and this documentation.
   Credit: *CaveScript32 sign drawings by Michael S. Moniz*, with a link to
   [suposystem.ai/cavescript](https://suposystem.ai/cavescript/) or the DOI.
-- **MIT:** `tools/extract_signs.py` and `signs.json`.
+- **MIT:** the tools (`tools/`), tests (`tests/`), `signs.json`, and the example text and
+  `.cave` files. The rendered example `examples/read-the-marks.svg` contains the drawings
+  and is CC BY 4.0.
 - Full texts are in [`LICENSES/`](LICENSES/). See [`LICENSE`](LICENSE) for the scope
   statement. Rights not held by Michael S. Moniz, including the archaeological
   research the categories come from, are not licensed here.
 
 ## Citing
 
-Release 1.0 is archived on Zenodo as
-[10.5281/zenodo.24294062](https://doi.org/10.5281/zenodo.24294062) (this version). The
-concept DOI [10.5281/zenodo.24294061](https://doi.org/10.5281/zenodo.24294061) covers all
-archived versions. Citation metadata is in [`CITATION.cff`](CITATION.cff). Citation is a
+Every release is archived on Zenodo. The concept DOI
+[10.5281/zenodo.24294061](https://doi.org/10.5281/zenodo.24294061) covers all versions and
+resolves to the latest; release 1.0 (drawings only) is
+[10.5281/zenodo.24294062](https://doi.org/10.5281/zenodo.24294062). Citation metadata is in [`CITATION.cff`](CITATION.cff). Citation is a
 courtesy, not an additional license condition.

@@ -4,13 +4,13 @@ message: >-
   courtesy; license terms remain as written in LICENSE.
 type: dataset
 title: "CaveScript32 Sign Drawings"
-version: "1.0"
+version: "1.1"
 date-released: 2026-11-16
-doi: 10.5281/zenodo.24294062
+doi: 10.5281/zenodo.24294061
 identifiers:
   - type: doi
     value: 10.5281/zenodo.24294062
-    description: "Version DOI for the archived 1.0 release"
+    description: "Version DOI for the archived 1.0 release (drawings only)"
   - type: doi
     value: 10.5281/zenodo.24294061
     description: "Concept DOI covering all archived versions"
@@ -25,7 +25,8 @@ license: CC-BY-4.0
 abstract: >-
   The 32 signs of CaveScript32 as individual SVG drawings in a common 48 x 48 frame,
   named by the sign IDs (S00-S31) used by the CaveScript32 reference codec, with a
-  manifest, the original source PDF and a reproducible extraction script.
+  manifest, the original source PDF, a reproducible extraction script and a
+  standard-library renderer that draws any .cave file as SVG.
 keywords:
   - CaveScript32
   - sign drawings

@@ -1,13 +1,15 @@
-CaveScript32 Sign Drawings 1.0 — scoped licenses
+CaveScript32 Sign Drawings 1.1 — scoped licenses
 
 Copyright 2026 Michael S. Moniz, to the extent of rights held.
 
-CC BY 4.0 applies to the sign drawings in signs/, the source PDF in source/, and the
-documentation (README.md, CITATION.cff, .zenodo.json). Full legal code:
+CC BY 4.0 applies to the sign drawings in signs/, the source PDF in source/, the rendered
+example examples/read-the-marks.svg, and the documentation (README.md, CHANGELOG.md,
+CITATION.cff, .zenodo.json). Full legal code:
 LICENSES/CC-BY-4.0.txt. Suggested credit: "CaveScript32 sign drawings by Michael S.
 Moniz", with a link to https://suposystem.ai/cavescript/ or the release DOI.
 
-MIT applies to tools/extract_signs.py and signs.json. Full text: LICENSES/MIT.txt.
+MIT applies to the tools in tools/, the tests in tests/, signs.json, and the example
+text and .cave files in examples/. Full text: LICENSES/MIT.txt.
 
 The 32 sign categories and their names come from published archaeological research
 (Genevieve von Petzinger's catalogue of Upper Paleolithic geometric signs). Rights in
