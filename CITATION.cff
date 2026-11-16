@@ -5,6 +5,15 @@ message: >-
 type: dataset
 title: "CaveScript32 Sign Drawings"
 version: "1.0"
+date-released: 2026-11-16
+doi: 10.5281/zenodo.24294062
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24294062
+    description: "Version DOI for the archived 1.0 release"
+  - type: doi
+    value: 10.5281/zenodo.24294061
+    description: "Concept DOI covering all archived versions"
 authors:
   - family-names: Moniz
     given-names: Michael S.

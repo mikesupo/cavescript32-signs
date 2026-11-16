@@ -1,5 +1,7 @@
 # CaveScript32 Sign Drawings · 1.0
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24294062.svg)](https://doi.org/10.5281/zenodo.24294062)
+
 **The 32 signs of CaveScript32 as individual vector drawings (SVG), one file per sign.**
 
 **CaveScript32 — conceived and created by Michael S. Moniz, developed with Claude and ChatGPT.**
@@ -79,5 +81,8 @@ license condition.
 
 ## Citing
 
-Citation metadata is in [`CITATION.cff`](CITATION.cff). The archived release will be
-listed on Zenodo with its own DOI, linked to the codec record.
+Release 1.0 is archived on Zenodo as
+[10.5281/zenodo.24294062](https://doi.org/10.5281/zenodo.24294062) (this version). The
+concept DOI [10.5281/zenodo.24294061](https://doi.org/10.5281/zenodo.24294061) covers all
+archived versions. Citation metadata is in [`CITATION.cff`](CITATION.cff). Citation is a
+courtesy, not an additional license condition.
