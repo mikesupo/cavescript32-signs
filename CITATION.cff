@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: >-
+  To cite the CaveScript32 sign drawings, please use the metadata below. Citation is a
+  courtesy; license terms remain as written in LICENSE.
+type: dataset
+title: "CaveScript32 Sign Drawings"
+version: "1.0"
+authors:
+  - family-names: Moniz
+    given-names: Michael S.
+    affiliation: SupoSystem
+    orcid: "https://orcid.org/0009-0002-7869-5183"
+repository-code: "https://github.com/mikesupo/cavescript32-signs"
+url: "https://suposystem.ai/cavescript/"
+license: CC-BY-4.0
+abstract: >-
+  The 32 signs of CaveScript32 as individual SVG drawings in a common 48 x 48 frame,
+  named by the sign IDs (S00-S31) used by the CaveScript32 reference codec, with a
+  manifest, the original source PDF and a reproducible extraction script.
+keywords:
+  - CaveScript32
+  - sign drawings
+  - SVG
+  - conscript
+  - writing system
+  - Upper Paleolithic geometric signs
+references:
+  - type: software
+    title: "CaveScript32 UTF-8 reference implementation"
+    authors:
+      - family-names: Moniz
+        given-names: Michael S.
+    doi: 10.5281/zenodo.23875861
+    repository-code: "https://github.com/mikesupo/cavescript32"

@@ -1,0 +1,268 @@
+{
+  "name": "CaveScript32 Sign Drawings",
+  "version": "1.0",
+  "creator": "Michael S. Moniz",
+  "credit": "CaveScript32 — conceived and created by Michael S. Moniz, developed with Claude and ChatGPT.",
+  "license": {
+    "drawings": "CC-BY-4.0",
+    "manifest_and_tools": "MIT"
+  },
+  "frame": {
+    "viewBox": "0 0 48 48",
+    "units": "PDF points",
+    "origin": "top-left",
+    "sign_centre": [
+      24,
+      24
+    ]
+  },
+  "style": {
+    "ink": "#192b32",
+    "stroke_width": 2.52,
+    "linecap": "round",
+    "linejoin": "round"
+  },
+  "reading_order": "Each cell holds two ordered signs: left sign, then right sign. Pair meanings are defined by the key profiles in the codec repository.",
+  "source": {
+    "file": "source/CaveScript32_Public_Reading_Key.pdf",
+    "sha256": "3a56acd1dffe73424431e4613657e75d9ca1a6174f1a42cced971cc9784cb4ca",
+    "page": 1,
+    "pdf_date": "2026-10-02",
+    "url": "https://suposystem.ai/cavescript/"
+  },
+  "extraction": {
+    "date": "2026-11-16",
+    "tool": "tools/extract_signs.py",
+    "method": "Vector paths converted without redrawing; each SVG renders pixel-identical to its source cell at 8x zoom."
+  },
+  "related": {
+    "codec_repository": "https://github.com/mikesupo/cavescript32",
+    "codec_concept_doi": "10.5281/zenodo.23875861"
+  },
+  "signs": [
+    {
+      "id": "S00",
+      "number": 0,
+      "name": "Asterisk",
+      "file": "signs/S00.svg",
+      "sha256": "24345b68cff685e9954d0aae29f8039c4fd3a0c61c9af752e520b72ae6022b28"
+    },
+    {
+      "id": "S01",
+      "number": 1,
+      "name": "Aviform",
+      "file": "signs/S01.svg",
+      "sha256": "7be673145e563fef0ef0c91472e9590c3cc2753a487b1af20d03727715aa552f"
+    },
+    {
+      "id": "S02",
+      "number": 2,
+      "name": "Circle",
+      "file": "signs/S02.svg",
+      "sha256": "946dd41c7aa9162c44151fb63579651f63bc828d5d60c4f733eda4b8bd368a87"
+    },
+    {
+      "id": "S03",
+      "number": 3,
+      "name": "Claviform",
+      "file": "signs/S03.svg",
+      "sha256": "90dcb05a16f7ecd123c516cbcec0ee0e0216300cbb9aabdd4241b4f0a5f888d2"
+    },
+    {
+      "id": "S04",
+      "number": 4,
+      "name": "Cordiform",
+      "file": "signs/S04.svg",
+      "sha256": "5fd0fe258c84f86d70b2673d339b89126fdbb99908ced6a5d94afc496983a865"
+    },
+    {
+      "id": "S05",
+      "number": 5,
+      "name": "Crosshatch",
+      "file": "signs/S05.svg",
+      "sha256": "1c7d363f6c9d1c940ed4affa5dc6704394134a52cbde31695ce668aefcca2703"
+    },
+    {
+      "id": "S06",
+      "number": 6,
+      "name": "Cruciform",
+      "file": "signs/S06.svg",
+      "sha256": "a584b2c2edbb6220689663db2fd8777ecdf82119149aa00b9c7e0058a3ac95d7"
+    },
+    {
+      "id": "S07",
+      "number": 7,
+      "name": "Cupule",
+      "file": "signs/S07.svg",
+      "sha256": "21ec64313d5c5fa137d329329b3a7d08dbedb9a6dc36f1161aceddc9ed9e3e9c"
+    },
+    {
+      "id": "S08",
+      "number": 8,
+      "name": "Dot",
+      "file": "signs/S08.svg",
+      "sha256": "85881898ad8a57496d98f1be976f1c9c8f5ab74a3d7b06567de2df275ab1434e"
+    },
+    {
+      "id": "S09",
+      "number": 9,
+      "name": "Finger Fluting",
+      "file": "signs/S09.svg",
+      "sha256": "ab076efe758298191245b70a7fb5ee6f98a32d154a454172c8bf26bbc0a9cdb8"
+    },
+    {
+      "id": "S10",
+      "number": 10,
+      "name": "Flabelliform",
+      "file": "signs/S10.svg",
+      "sha256": "a0fcd071c6fe6a88feabd69646c27f8243b2653bc37396018a55b22eece263f1"
+    },
+    {
+      "id": "S11",
+      "number": 11,
+      "name": "Half-Circle",
+      "file": "signs/S11.svg",
+      "sha256": "f0e5a104bcde7f4bbd74386938030d5b24d0041800cb6b437154a1252c304b46"
+    },
+    {
+      "id": "S12",
+      "number": 12,
+      "name": "Line",
+      "file": "signs/S12.svg",
+      "sha256": "54edc8a1b7865aa999df2cade5eeb974784eeee40e58600680c9f0f27bff9c92"
+    },
+    {
+      "id": "S13",
+      "number": 13,
+      "name": "Negative Hand",
+      "file": "signs/S13.svg",
+      "sha256": "70a18ed41f78ab1ed0723c64e3da92892b29fe2ecda09c1c23bcd5354eae8ec8"
+    },
+    {
+      "id": "S14",
+      "number": 14,
+      "name": "Open-Angle",
+      "file": "signs/S14.svg",
+      "sha256": "d8b27baf09fa7e817e0b175580d38196f5142246f2f5a871fe4c01474c95c9a5"
+    },
+    {
+      "id": "S15",
+      "number": 15,
+      "name": "Oval",
+      "file": "signs/S15.svg",
+      "sha256": "a51861ee386ea9702cc7d7718e5f6e9df2568b897f6d3b9ab2de6ca941045b58"
+    },
+    {
+      "id": "S16",
+      "number": 16,
+      "name": "Pectiform",
+      "file": "signs/S16.svg",
+      "sha256": "d4b4290e2fb104b549aea739095f95f269cb1e779857d4ce1d4332d618b3f374"
+    },
+    {
+      "id": "S17",
+      "number": 17,
+      "name": "Penniform",
+      "file": "signs/S17.svg",
+      "sha256": "1ed3df98934b22efedf0e4d4247760ec64473ac8e98c9c94968d6fdb66432c54"
+    },
+    {
+      "id": "S18",
+      "number": 18,
+      "name": "Positive Hand",
+      "file": "signs/S18.svg",
+      "sha256": "55468109a876e1bea033a096009dca069e48a21140ebe6108922c916a883818b"
+    },
+    {
+      "id": "S19",
+      "number": 19,
+      "name": "Quadrangle",
+      "file": "signs/S19.svg",
+      "sha256": "a1116f0d85cf93265f1da31f10b52f409958a0f746f5a40b7df50e2b341091d6"
+    },
+    {
+      "id": "S20",
+      "number": 20,
+      "name": "Reniform",
+      "file": "signs/S20.svg",
+      "sha256": "04b307883a0a52e0388d49d29a7752c94c1bebccd4e26cf1f71e31fac615e1be"
+    },
+    {
+      "id": "S21",
+      "number": 21,
+      "name": "Scalariform",
+      "file": "signs/S21.svg",
+      "sha256": "4f477262a691d068db447e0b3f205c42d885b0a569c374f1aa8a31dda0e5639c"
+    },
+    {
+      "id": "S22",
+      "number": 22,
+      "name": "Segmented Cruciform",
+      "file": "signs/S22.svg",
+      "sha256": "fcdc1185100d9e7a96d100b561b870d370fe180112e9bf3d8720c3dd6f1376b5"
+    },
+    {
+      "id": "S23",
+      "number": 23,
+      "name": "Serpentiform",
+      "file": "signs/S23.svg",
+      "sha256": "23cbcdf5536850ddf7937ea087bbe7b67ba92b982f58a2352bd61716df54fb88"
+    },
+    {
+      "id": "S24",
+      "number": 24,
+      "name": "Spanish Tectiform",
+      "file": "signs/S24.svg",
+      "sha256": "7886e06401e5da7dafe0ded3c58fbe71aae3ec9dd3ad26772b5a50306915cb1a"
+    },
+    {
+      "id": "S25",
+      "number": 25,
+      "name": "Spiral",
+      "file": "signs/S25.svg",
+      "sha256": "4403e45079c5713e3bb97f326824362a00a71b16492e52b339e3f75f602c6a87"
+    },
+    {
+      "id": "S26",
+      "number": 26,
+      "name": "Tectiform",
+      "file": "signs/S26.svg",
+      "sha256": "609d222398943322347429f2564269df4b709712d3da998d579a32f51845e9ab"
+    },
+    {
+      "id": "S27",
+      "number": 27,
+      "name": "Triangle",
+      "file": "signs/S27.svg",
+      "sha256": "b4d8944c54bdfa3be3b0e77a6955ddbd73ac7cef097c0dcd8e393083cf2ece0d"
+    },
+    {
+      "id": "S28",
+      "number": 28,
+      "name": "Unciform",
+      "file": "signs/S28.svg",
+      "sha256": "ee05dec7795a06f11fa504305c500a55cc54582b2dead8e6ff3de6a3cd7af2b0"
+    },
+    {
+      "id": "S29",
+      "number": 29,
+      "name": "W-Sign",
+      "file": "signs/S29.svg",
+      "sha256": "1be3dc93b7ae25846ec57a6694910889a1f9052d412c5979711acf0f8fe771f6"
+    },
+    {
+      "id": "S30",
+      "number": 30,
+      "name": "Y-Sign",
+      "file": "signs/S30.svg",
+      "sha256": "380deddae20d645b56f6372c724ac219848eea70d38ed54170d2d74b3c05fd2f"
+    },
+    {
+      "id": "S31",
+      "number": 31,
+      "name": "Zigzag",
+      "file": "signs/S31.svg",
+      "sha256": "af03ecfa9189d0600f396edde6d7a838394c855b862f20797dbf7277636814d7"
+    }
+  ]
+}
