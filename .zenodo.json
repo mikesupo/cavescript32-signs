@@ -1,0 +1,42 @@
+{
+  "title": "CaveScript32 Sign Drawings",
+  "version": "1.0",
+  "upload_type": "image",
+  "image_type": "drawing",
+  "creators": [
+    {
+      "name": "Moniz, Michael S.",
+      "affiliation": "SupoSystem",
+      "orcid": "0009-0002-7869-5183"
+    }
+  ],
+  "description": "<p>The 32 signs of CaveScript32 as individual vector drawings (SVG), one file per sign, named by the sign IDs (S00&ndash;S31) used by the CaveScript32 reference codec. Every file shares one 48&nbsp;&times;&nbsp;48 frame so cells line up without adjustment. The release includes a manifest (signs.json) with names and SHA-256 checksums, the original CaveScript32 Public Reading Key PDF (2 October 2026) from which the drawings were extracted, and the extraction script.</p><p>CaveScript32 was conceived and created by Michael S. Moniz, developed with Claude and ChatGPT. While researching prehistory and the origins of language to better understand large language models, he came across the 32 geometric signs that recur across Ice Age cave art, and wanted to make something modern out of something ancient and mysterious.</p><p>The 32 categories and their names follow Genevieve von Petzinger's catalogue of Upper Paleolithic geometric signs (<i>The First Signs</i>, 2016). CaveScript32 is independent of that research and assigns modern meanings; it does not claim to recover ancient ones. The drawings are modern renderings. The SVG files were converted from the source PDF's vector paths without redrawing and render pixel-identical to the source page at 8&times; zoom.</p><p>Licenses: CC BY 4.0 for the drawings, source PDF and documentation; MIT for the extraction script and manifest. Rights in the underlying archaeological research and third-party material are not licensed here. The reference codec, mapping keys and tests are archived separately (10.5281/zenodo.23875861).</p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "CaveScript32",
+    "sign drawings",
+    "SVG",
+    "conscript",
+    "writing system",
+    "Upper Paleolithic geometric signs"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.23875861",
+      "relation": "isSupplementTo",
+      "scheme": "doi",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "https://suposystem.ai/cavescript/",
+      "relation": "isDocumentedBy",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://github.com/mikesupo/cavescript32",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
